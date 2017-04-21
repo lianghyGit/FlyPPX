@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF417EB1EA89B4E0001FCBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF417EA1EA89B4E0001FCBF /* main.m */; };
+		ECF417EE1EA89B4E0001FCBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF417ED1EA89B4E0001FCBF /* AppDelegate.m */; };
+		ECF417F11EA89B4E0001FCBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF417F01EA89B4E0001FCBF /* ViewController.m */; };
+		ECF417F41EA89B4E0001FCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF417F21EA89B4E0001FCBF /* Main.storyboard */; };
+		ECF417F61EA89B4E0001FCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF417F51EA89B4E0001FCBF /* Assets.xcassets */; };
+		ECF417F91EA89B4E0001FCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF417F71EA89B4E0001FCBF /* LaunchScreen.storyboard */; };
+		ECF418021EA89BA30001FCBF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF418011EA89BA30001FCBF /* AVFoundation.framework */; };
+		ECF418041EA89BAD0001FCBF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF418031EA89BAD0001FCBF /* SpriteKit.framework */; };
+		ECF418061EA89BC40001FCBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF418051EA89BC40001FCBF /* CoreGraphics.framework */; };
+		ECF418081EA89C720001FCBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF418071EA89C720001FCBF /* UIKit.framework */; };
+		ECF4180B1EA89CC00001FCBF /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4180A1EA89CC00001FCBF /* Player.m */; };
+		ECF4180E1EA89CFF0001FCBF /* Pipe.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF4180D1EA89CFF0001FCBF /* Pipe.m */; };
+		ECF418111EA8BF970001FCBF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF418101EA8BF970001FCBF /* GameScene.m */; };
+		ECF418141EA8BFD40001FCBF /* NewGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF418131EA8BFD40001FCBF /* NewGameScene.m */; };
+		ECF4181E1EA8C0460001FCBF /* bgm.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECF418161EA8C0460001FCBF /* bgm.wav */; };
+		ECF4181F1EA8C0460001FCBF /* die.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECF418171EA8C0460001FCBF /* die.wav */; };
+		ECF418201EA8C0460001FCBF /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECF418181EA8C0460001FCBF /* jump.wav */; };
+		ECF418211EA8C0460001FCBF /* pipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECF418191EA8C0460001FCBF /* pipe.mp3 */; };
+		ECF418221EA8C0460001FCBF /* punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECF4181A1EA8C0460001FCBF /* punch.wav */; };
+		ECF418231EA8C0460001FCBF /* punch2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECF4181B1EA8C0460001FCBF /* punch2.mp3 */; };
+		ECF418241EA8C0460001FCBF /* punch3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECF4181C1EA8C0460001FCBF /* punch3.mp3 */; };
+		ECF418251EA8C0460001FCBF /* rush.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECF4181D1EA8C0460001FCBF /* rush.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECF417E61EA89B4D0001FCBF /* FlyPPX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyPPX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF417EA1EA89B4E0001FCBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF417EC1EA89B4E0001FCBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECF417ED1EA89B4E0001FCBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECF417EF1EA89B4E0001FCBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECF417F01EA89B4E0001FCBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECF417F31EA89B4E0001FCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF417F51EA89B4E0001FCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF417F81EA89B4E0001FCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF417FA1EA89B4E0001FCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF418011EA89BA30001FCBF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ECF418031EA89BAD0001FCBF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		ECF418051EA89BC40001FCBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECF418071EA89C720001FCBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECF418091EA89CC00001FCBF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		ECF4180A1EA89CC00001FCBF /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		ECF4180C1EA89CFF0001FCBF /* Pipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pipe.h; sourceTree = "<group>"; };
+		ECF4180D1EA89CFF0001FCBF /* Pipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pipe.m; sourceTree = "<group>"; };
+		ECF4180F1EA8BF970001FCBF /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		ECF418101EA8BF970001FCBF /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		ECF418121EA8BFD40001FCBF /* NewGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameScene.h; sourceTree = "<group>"; };
+		ECF418131EA8BFD40001FCBF /* NewGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameScene.m; sourceTree = "<group>"; };
+		ECF418161EA8C0460001FCBF /* bgm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bgm.wav; sourceTree = "<group>"; };
+		ECF418171EA8C0460001FCBF /* die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = die.wav; sourceTree = "<group>"; };
+		ECF418181EA8C0460001FCBF /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		ECF418191EA8C0460001FCBF /* pipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pipe.mp3; sourceTree = "<group>"; };
+		ECF4181A1EA8C0460001FCBF /* punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punch.wav; sourceTree = "<group>"; };
+		ECF4181B1EA8C0460001FCBF /* punch2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = punch2.mp3; sourceTree = "<group>"; };
+		ECF4181C1EA8C0460001FCBF /* punch3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = punch3.mp3; sourceTree = "<group>"; };
+		ECF4181D1EA8C0460001FCBF /* rush.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rush.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF417E31EA89B4D0001FCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF418081EA89C720001FCBF /* UIKit.framework in Frameworks */,
+				ECF418061EA89BC40001FCBF /* CoreGraphics.framework in Frameworks */,
+				ECF418041EA89BAD0001FCBF /* SpriteKit.framework in Frameworks */,
+				ECF418021EA89BA30001FCBF /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF417DD1EA89B4D0001FCBF = {
+			isa = PBXGroup;
+			children = (
+				ECF417E81EA89B4D0001FCBF /* FlyPPX */,
+				ECF417E71EA89B4D0001FCBF /* Products */,
+				ECF418001EA89BA30001FCBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF417E71EA89B4D0001FCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF417E61EA89B4D0001FCBF /* FlyPPX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF417E81EA89B4D0001FCBF /* FlyPPX */ = {
+			isa = PBXGroup;
+			children = (
+				ECF418091EA89CC00001FCBF /* Player.h */,
+				ECF4180A1EA89CC00001FCBF /* Player.m */,
+				ECF4180C1EA89CFF0001FCBF /* Pipe.h */,
+				ECF4180D1EA89CFF0001FCBF /* Pipe.m */,
+				ECF417EC1EA89B4E0001FCBF /* AppDelegate.h */,
+				ECF417ED1EA89B4E0001FCBF /* AppDelegate.m */,
+				ECF417EF1EA89B4E0001FCBF /* ViewController.h */,
+				ECF417F01EA89B4E0001FCBF /* ViewController.m */,
+				ECF4180F1EA8BF970001FCBF /* GameScene.h */,
+				ECF418101EA8BF970001FCBF /* GameScene.m */,
+				ECF418121EA8BFD40001FCBF /* NewGameScene.h */,
+				ECF418131EA8BFD40001FCBF /* NewGameScene.m */,
+				ECF418151EA8C0460001FCBF /* Sounds */,
+				ECF417F21EA89B4E0001FCBF /* Main.storyboard */,
+				ECF417F51EA89B4E0001FCBF /* Assets.xcassets */,
+				ECF417F71EA89B4E0001FCBF /* LaunchScreen.storyboard */,
+				ECF417FA1EA89B4E0001FCBF /* Info.plist */,
+				ECF417E91EA89B4D0001FCBF /* Supporting Files */,
+			);
+			path = FlyPPX;
+			sourceTree = "<group>";
+		};
+		ECF417E91EA89B4D0001FCBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECF417EA1EA89B4E0001FCBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF418001EA89BA30001FCBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF418071EA89C720001FCBF /* UIKit.framework */,
+				ECF418051EA89BC40001FCBF /* CoreGraphics.framework */,
+				ECF418031EA89BAD0001FCBF /* SpriteKit.framework */,
+				ECF418011EA89BA30001FCBF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECF418151EA8C0460001FCBF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				ECF418161EA8C0460001FCBF /* bgm.wav */,
+				ECF418171EA8C0460001FCBF /* die.wav */,
+				ECF418181EA8C0460001FCBF /* jump.wav */,
+				ECF418191EA8C0460001FCBF /* pipe.mp3 */,
+				ECF4181A1EA8C0460001FCBF /* punch.wav */,
+				ECF4181B1EA8C0460001FCBF /* punch2.mp3 */,
+				ECF4181C1EA8C0460001FCBF /* punch3.mp3 */,
+				ECF4181D1EA8C0460001FCBF /* rush.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF417E51EA89B4D0001FCBF /* FlyPPX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF417FD1EA89B4E0001FCBF /* Build configuration list for PBXNativeTarget "FlyPPX" */;
+			buildPhases = (
+				ECF417E21EA89B4D0001FCBF /* Sources */,
+				ECF417E31EA89B4D0001FCBF /* Frameworks */,
+				ECF417E41EA89B4D0001FCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyPPX;
+			productName = FlyPPX;
+			productReference = ECF417E61EA89B4D0001FCBF /* FlyPPX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF417DE1EA89B4D0001FCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "apple－pc";
+				TargetAttributes = {
+					ECF417E51EA89B4D0001FCBF = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DSZ7E8NPW7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECF417E11EA89B4D0001FCBF /* Build configuration list for PBXProject "FlyPPX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF417DD1EA89B4D0001FCBF;
+			productRefGroup = ECF417E71EA89B4D0001FCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF417E51EA89B4D0001FCBF /* FlyPPX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF417E41EA89B4D0001FCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF418251EA8C0460001FCBF /* rush.wav in Resources */,
+				ECF418211EA8C0460001FCBF /* pipe.mp3 in Resources */,
+				ECF418201EA8C0460001FCBF /* jump.wav in Resources */,
+				ECF417F91EA89B4E0001FCBF /* LaunchScreen.storyboard in Resources */,
+				ECF418241EA8C0460001FCBF /* punch3.mp3 in Resources */,
+				ECF418221EA8C0460001FCBF /* punch.wav in Resources */,
+				ECF4181E1EA8C0460001FCBF /* bgm.wav in Resources */,
+				ECF417F61EA89B4E0001FCBF /* Assets.xcassets in Resources */,
+				ECF4181F1EA8C0460001FCBF /* die.wav in Resources */,
+				ECF417F41EA89B4E0001FCBF /* Main.storyboard in Resources */,
+				ECF418231EA8C0460001FCBF /* punch2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF417E21EA89B4D0001FCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF418141EA8BFD40001FCBF /* NewGameScene.m in Sources */,
+				ECF4180E1EA89CFF0001FCBF /* Pipe.m in Sources */,
+				ECF4180B1EA89CC00001FCBF /* Player.m in Sources */,
+				ECF417F11EA89B4E0001FCBF /* ViewController.m in Sources */,
+				ECF417EE1EA89B4E0001FCBF /* AppDelegate.m in Sources */,
+				ECF418111EA8BF970001FCBF /* GameScene.m in Sources */,
+				ECF417EB1EA89B4E0001FCBF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECF417F21EA89B4E0001FCBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF417F31EA89B4E0001FCBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF417F71EA89B4E0001FCBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF417F81EA89B4E0001FCBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF417FB1EA89B4E0001FCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECF417FC1EA89B4E0001FCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF417FE1EA89B4E0001FCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSZ7E8NPW7;
+				INFOPLIST_FILE = FlyPPX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liang.FlyPPX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ECF417FF1EA89B4E0001FCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DSZ7E8NPW7;
+				INFOPLIST_FILE = FlyPPX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liang.FlyPPX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF417E11EA89B4D0001FCBF /* Build configuration list for PBXProject "FlyPPX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF417FB1EA89B4E0001FCBF /* Debug */,
+				ECF417FC1EA89B4E0001FCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF417FD1EA89B4E0001FCBF /* Build configuration list for PBXNativeTarget "FlyPPX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF417FE1EA89B4E0001FCBF /* Debug */,
+				ECF417FF1EA89B4E0001FCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF417DE1EA89B4D0001FCBF /* Project object */;
+}
